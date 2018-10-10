@@ -22,6 +22,6 @@ A real-time object recognition application using [Google's TensorFlow Object Det
 - Moving the `.read()` part of the video stream in a multiple child processes did not work. However, it was possible to move it to a separate thread.
 
 ## Copyright
-
+Most of the code is from Dat Tran. However, I modified a few lines to accelerate the video stream. But no improvement? Need to check. 
 See [LICENSE](LICENSE) for details.
 Copyright (c) 2017 [Dat Tran](http://www.dat-tran.com/).
